@@ -7,6 +7,6 @@ print(date[0:5])
 print(date2[0:8])
 print(date3[0:5])
 
-temp_issue_date = input("Изменение даты:")
-temp_created_date = input("Дедлайн даты:")
+temp_issue_date = input("Изменение ДД.ММ.ГГ:")
+temp_created_date = input("Дедлайн ДД.ММ.ГГ:")
 print(f"temp_issue_date {temp_created_date}")
