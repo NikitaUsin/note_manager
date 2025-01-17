@@ -1,13 +1,8 @@
 print("Hello, world!")
 
-username = input("Введите ваше ФИО")
-title = input("Введите заголовок заметки")
-print(f"username {title}")
-
-content = input("Описание")
-status = input("Готовность задачи")
-print(f"content {status}")
-
-created_date = input("Начало ДД.ММ.ГГ:")
-issue_date = input("Завершение ДД.ММ.ГГ:")
-print(f"created_date {issue_date}")
+title1 = "Основные темы"
+title2 = "Персонажи"
+title3 = "Рекомендации для чтения"
+print(f"Предложение тем: title1 {title1 [0:13]}")           # индексация
+print(f"Предложение персонажий: title2 {title2 [0:9]}")     # индексация
+print(f"Рекомендации для чтения: title3 {title3 [0:23]}")   # индексация
