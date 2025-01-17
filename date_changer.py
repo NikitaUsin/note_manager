@@ -1,10 +1,11 @@
 print("Hello, world!")
 
-# '''19-03-2024, 19.03.24, 19:03:24, 03-19-2024 и даже 19-Mar-2024.'''
-date1 = ["'19-03-2024', '19.03.24', '19:03:24', '03-19-2024'"]
-date2 = ["'19-Mar-2024','19 марта 2024'"]
-print(date1)
-print(date2)
+date = "12.03.24"
+date2 = "12 марта 2024"
+date3 = "12-03-24"
+print(date[0:5])
+print(date2[0:8])
+print(date3[0:5])
 
 temp_issue_date = input("Изменение даты:")
 temp_created_date = input("Дедлайн даты:")
